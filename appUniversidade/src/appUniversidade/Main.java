@@ -1,0 +1,12 @@
+package appUniversidade;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            TelaDeLogin telaDeLogin = new TelaDeLogin();
+            telaDeLogin.exibir();
+        });
+    }
+}
